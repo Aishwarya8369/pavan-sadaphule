@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import type React from "react"
 import "@/app/globals.css"
 import { Inter } from "next/font/google"
@@ -21,6 +22,6 @@ export default function RootLayout({
   )
 }
 
-export const metadata = {
-      generator: 'v0.dev'
-    };
+xport const metadata: Metadata = {
+  generator: 'v0.dev',
+};
