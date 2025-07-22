@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && gh-pages -d out --branch gh-pages --repo=https://github.com/aishwarya8369/pavan-sadaphule.git"
+    "deploy": "gh-pages -d out --repo=https://github.com/aishwarya8369/pavan-sadaphule.git"
 
   },
   "dependencies": {
